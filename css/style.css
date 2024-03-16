@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Madimi One;
+}
+body {
+    scroll-behavior: smooth;
+    height: 2750px;
+}
+.header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 300px;
+}
+.list-items ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 20px;
+    box-sizing: border-box;
+    transition: 0.9s;
+}
+.list-items ul li:hover {
+    border-radius: 100px;
+    background-color: #dd4b2b;
+    box-sizing: border-box;
+}
+.list-items ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #31353e;
+}
+.main-page {
+    width: 100%;
+    height: 1320px;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+}
+.main-page .photo-background {
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 1320px;
+}
+.texts {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    align-items: center;
+}
+.texts h1 {
+    font-size: 62px;
+    color: #776b6b;
+    text-align: center;
+}
+.texts h1::after {
+    display: block;
+    content: "finibus lobortis sed quis tellus.";
+    color: #fff;
+    font-size: 25px;
+}
+.food-container {
+    display: flex;
+    justify-content: space-between;
+    width: 1170px;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    align-items: center;
+}
+.container-x {
+    width: 370px;
+    height: 300px;
+    color: #fff;
+    box-sizing: border-box;
+    text-align: center;
+}
+.container-x p {
+    font-size: 30px;
+    margin-top: 10px;
+}
+.container-x span {
+    font-size: 15px;
+    margin-top: 20px;
+    box-sizing: border-box;
+}
+.readmore-btn {
+    display: flex;
+    top: 94%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    align-items: center;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid green;
+    border-radius: 60px;
+    padding: 15px 40px;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    color: #612316;
+}
